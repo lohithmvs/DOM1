@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="x1">Hello</div>
+    <p id="x1">airtel</p>
+    <h1 id="x1">charges high</h1>
+    <h4 id="x1">koo!</h4>
+    <script>
+        var a=document.querySelectorAll("#x1");
+        var s="";
+        for(let i=0;i<a.length;i++){
+            s+=a[i].innerText+" ";
+        }
+        console.log(s);
+    </script>
+</body>
+</html>

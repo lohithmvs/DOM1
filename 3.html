@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="hello">Hello</div>
+    <p class="hello">! jio</p>
+    <h1 class="hello">Hello world</h1>
+    <h3 class="hello">bio-Class</h3>
+    <script>
+        var a=document.getElementsByClassName("hello");
+        var s="";
+        for(let i=0;i<a.length;i++){
+            s+=a[i].innerHTML+" ";
+        }
+        console.log(s);
+        var b=document.querySelectorAll(".hello");
+        console.log(b);
+    </script>
+</body>
+</html>
